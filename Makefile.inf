@@ -4,11 +4,11 @@ TITLE="EPIC OWRT_PLIB_PureSNMP"
 
 PKG_NAME="OWRT_PLIB_PureSNMP"
 PKG_VERSION=1.11.0-1
-PKG_RELEASE=1
+PKG_RELEASE=2
 PKG_DEPENDS=
 
 MODULE_NAME = owrt_plib_puresnmp
-MODULE_FILES = importlib_metadata/ puresnmp/ six.py t61codec.py typing_extensions.py verlib.py zipp.py
+MODULE_FILES = importlib_metadata/ importlib_metadata-4.8.1.dist-info/ puresnmp/ puresnmp-1.11.0.dist-info/ six-1.16.0.dist-info/ six.py t61codec-2.0.0.dist-info/ t61codec.py typing_extensions-3.10.0.2.dist-info/ typing_extensions.py verlib-0.1-py3.7.egg-info/ verlib.py zipp-3.6.0.dist-info/ zipp.py
 MODULE_FILES_DIR ?= /usr/lib/python3.7/site-packages/
 
 INSTALL_DIR=
