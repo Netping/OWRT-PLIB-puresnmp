@@ -1,0 +1,7 @@
+Package: OWRT_PLIB_PureSNMP
+Version: 1.11.0-1-2
+Depends:  
+License: MIT
+Section: NetPing modules
+Architecture: x86_64
+Description: EPIC OWRT_PLIB_PureSNMP
