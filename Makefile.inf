@@ -4,7 +4,7 @@ TITLE="OWRT-PLIB-puresnmp"
 
 PKG_NAME="OWRT-PLIB-puresnmp"
 PKG_VERSION=1.11.0-1
-PKG_RELEASE=4
+PKG_RELEASE=5
 PKG_DEPENDS=
 
 MODULE_NAME = owrt_plib_puresnmp
@@ -44,6 +44,7 @@ ifeq ($(origin INSTALL_DIR),command line)
 	rm -rf $(INSTALL_DIR)
 else
 	for f in $(MODULE_FILES); do rm -rf $(INSTALL_DIR)$(MODULE_FILES_DIR)$${f}; done
+	rm -r $(INSTALL_DIR)$(MODULE_FILES_DIR)$(MODULE_NAME)
 	$(if $(strip $(INSTALL_DIR)),rm -r $(INSTALL_DIR),)
 endif
 
